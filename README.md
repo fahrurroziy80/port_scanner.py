@@ -1,18 +1,13 @@
+# 🔍 Pemindai Port Sederhana (Simple Port Scanner)
 
-# 🔍 Simple Port Scanner
+Alat CLI dasar untuk memindai port yang terbuka pada host target menggunakan Python.
 
-A basic CLI tool to scan open ports on a target host using Python.
+## ✅ Fitur
+- Memindai beberapa port sekaligus  
+- Penanganan timeout  
+- Mendukung IP atau hostname  
 
-## ✅ Features
-- Scan multiple ports
-- Timeout handling
-- IP/hostname support
-
-## 🚀 Usage
+## 🚀 Cara Penggunaan
 
 ```bash
 python port_scanner.py 192.168.1.1 -p 22 80 443
-```
-
-## ⚠️ Disclaimer
-For educational and authorized testing only.
